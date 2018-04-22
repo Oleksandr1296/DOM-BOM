@@ -18,7 +18,8 @@ function valid(e) {
   var age = id('age').value;
   var username = id('username').value;
   var date = id('date').value;
-
+  var usernameGet= document.getElementById('getUsername');
+  usernameGet.innerText =(","+ username + "!");
   var ddmmyyyy=date;
   ddmmyyyy = ddmmyyyy.split('/');
 

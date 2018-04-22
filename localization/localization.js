@@ -8,15 +8,14 @@ var getCurrentLanguage = function () {
   }
   return defaultLanguage;
 }
-var currentLang = getCurrentLanguage();
-console.log(currentLang);
+var currentLang = getCurrentLanguage().toLowerCase();
 var langEls = document.getElementsByClassName('lang-' + currentLang);
 
 for (var i=0; i<langEls.length; i++) {
   var langEl = langEls[i];
   langEl.classList.add('visible');
 }
-document.getElementById(currentLang).checked= true;
+document.getElementById(currentLang).checked = true;
 // $<prefix> == DOMElement
 var $save = document.querySelector('html body button#save')
 $save.addEventListener('click', function() {
