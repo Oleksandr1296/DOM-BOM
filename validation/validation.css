@@ -1,0 +1,23 @@
+#form {
+  position: relative;
+  display: flex;
+
+}
+input {
+  width: 10%;
+}
+button {
+  width: 40px;
+}
+.bk {
+  border:1px solid #9E9E9E;
+  color: #000000;
+  padding: 3px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 2px;
+  font-size: 11px;
+  font-family: Verdana;
+  background: #FFF;
+  background:#fff url(images/shadow.png) repeat-x;
+}

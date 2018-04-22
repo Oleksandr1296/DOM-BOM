@@ -1,0 +1,25 @@
+.lang {
+  display: none;
+}
+.visible {
+  display: inline;
+
+}
+button {
+  width: 60px;
+  height: 25px;
+}
+#welcome-message{
+  text-align: center;
+}
+.radio {
+  width: auto;
+ justify-content: center;
+}
+#languages {
+  display: flex;
+  justify-content: center;
+}
+label {
+  width: auto;
+}

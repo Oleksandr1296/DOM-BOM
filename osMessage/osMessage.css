@@ -1,0 +1,21 @@
+.download-message {
+display: none;
+
+}
+.content1 #version {
+  position: absolute;
+  top:45%;
+  width: 10%;
+  left: 45%;
+  height: 20px;
+  border-radius: 10px;
+  border: 0;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background:linear-gradient(0deg,#051256,#00ff87);
+}
+.download-message {
+  position: absolute;
+  top:45%;
+  text-align: center;
+}

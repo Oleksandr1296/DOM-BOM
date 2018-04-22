@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="validation/validation.css">
+    <link rel="stylesheet" href="osMessage/osMessage.css">
+    <link rel="stylesheet" href="localization/localization.css">
+    <link rel="stylesheet" href="stop-prevent-events/stop-prevent-events.css">
+
+</head>
+<body>
+    <div  class="header">
+        <h2 id="header"> Task 1</h2>
+    </div>
+    <div id="parallax1"><h3>parallax</h3> </div>
+    <div class="content1 ">
+        <div class="osMessage">
+            <button  id="version">OS</button>
+            <div class="download-message"  data-version="macos">
+                Download MacOS version of our app.
+            </div>
+            <div class="download-message" data-version="win">
+                Download Windows version of our app.
+            </div>
+        </div>
+        <div class="localization">
+            <div id="languages">
+                <label>
+                    <input class="radio" id="ua" type="radio" name="lang" value="ua" >UA
+                </label>
+                <label>
+                    <input  class="radio" id="ru" type="radio" name="lang" value="ru">RU
+                </label>
+                <label>
+                    <input  class="radio" id="eng" type="radio" name="lang" value="eng">ENG
+                </label>
+            </div>
+            <button id="save">Save</button>
+            <div id="welcome-message">
+                <span class="lang lang-ua">Привіт</span>
+                <span class="lang lang-ru">Привет</span>
+                <span class="lang lang-eng">Hello</span>
+                , username!
+                <span class="lang lang-ua">Раді тебе бачити!</span>
+                <span class="lang lang-ru">Очень рады тебя видеть!</span>
+                <span class="lang lang-eng">Welcome!</span>
+            </div>
+        </div>
+    </div>
+    <div id="parallax2"> <h3>parallax</h3></div>
+    <div class="content2 ">
+        <div class="stop-prevent-events">
+            <div id="box1" class="box">
+                <div id="box2" class="box">
+                    <div id="box3" class="box">
+                    </div>
+                </div>
+            </div>
+
+            <div id="demo">
+                <a   href="https://www.google.com/">google.com</a>
+            </div>
+        </div>
+        <div class="text" >
+            <p> <B>stopPropagation()</B>-не скасовує поточне виконання дії,
+                але запобігає її подальше поширення. <br>
+                На прикладі з кубіками - це добре видно,
+                що при натискані на синій дія не поширюється на решту</p>
+            <p><B>preventDefault()</B>-скасовує поточне виконання дії,але не запобігає
+                її подальшому поширенню. <br>На прикладі з ссилкую видно ,що перехід скасовано.</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="stop-prevent-events/stop-prevent-events.js"></script>
+    <script src="localization/localization.js"></script>
+    <script src="validation/validation.js"></script>
+    <script src="osMessage/osMessage.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
