@@ -1,0 +1,21 @@
+div#player {
+  width: 20px;
+  height: 20px;
+  background: url("tank.png");
+  background-size: cover;
+  transition: all 0.5s ease-out 0s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.arena-of-battle {
+  height: 95%;
+  width: 70%;
+  background: black;
+  position: relative;
+  border: black 2px solid;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
