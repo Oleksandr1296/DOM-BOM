@@ -1,12 +1,16 @@
 var onClick = function (e) {
-  var $el = e.target;
+  let $el = event.target;
+  let previousColor;
+  if ($el.style.backgroundColor != "yellow") {
+    previousColor = $el.style.backgroundColor;
+  }
+
   event.preventDefault();
 
-  e.stopPropagation();
-
-  $el.style.backgroundColor = 'yellow';
-  alert('CLICK!');
-  $el.style.backgroundColor = '';
+  $el.style.backgroundColor = "yellow";
+  setTimeout( () => {
+    $el.style.backgroundColor = previousColor;
+  }, 1000);
 }
 
 box1.onclick = onClick;
