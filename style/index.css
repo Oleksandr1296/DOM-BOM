@@ -10,7 +10,7 @@ body{
 .content1 {
   position: relative;
   z-index:200;
-  background: url(images/background2.png) center repeat;
+  background: url(../images/background2.png) center repeat;
   height: 400px;
   top: -400px;
   margin-bottom: -400px;
@@ -18,7 +18,7 @@ body{
 .content2 {
   position: relative;
   z-index:200;
-  background: url(images/background2.png) center repeat;
+  background: url(../images/background2.png) center repeat;
   height: 400px;
   top: -400px;
   margin-bottom: -400px;
@@ -27,7 +27,7 @@ body{
   position: relative;
   z-index: 100;
   top: -70px;
-  background: url(images/background3.jpg) ;
+  background: url(../images/background3.jpg) ;
   background-size: cover;
   height: 800px;
   margin-bottom: -70px;
@@ -35,14 +35,14 @@ body{
 #parallax2 {
   position: relative;
   z-index: 100;
-  background: url(images/background4.jpg);
+  background: url(../images/background4.jpg);
   background-size: cover;
   height: 1000px;
 }
 .header{
   position: relative;
   z-index:200;
-  background: url(images/background2.png) center repeat;
+  background: url(../images/background2.png) center repeat;
   height: 70px;
 }
 .osMessage {
@@ -70,7 +70,7 @@ body{
   align-items: center;
   text-align: center;
   justify-content: center;
-  background: url(images/background1.jpg) center repeat;
+  background: url(../images/background1.jpg) center repeat;
   width: 100%;
   height: 100px;
   color: white;
@@ -78,7 +78,7 @@ body{
 }
 .player-navigation {
   width: 100%;
-  background: url(images/background2.png) center repeat;
+  background: url(../images/background2.png) center repeat;
   height: 500px;
 }
 .name-of-game {
@@ -91,7 +91,7 @@ body{
 }
 .logotype-game {
   height:50px ;
-  background: url(images/wot_logo.png) center no-repeat;
+  background: url(../images/wot_logo.png) center no-repeat;
   }
 
 .container {
