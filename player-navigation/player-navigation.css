@@ -1,7 +1,7 @@
 div#player {
   width: 20px;
   height: 20px;
-  background: url("tank.png");
+  background: url(../images/tank.png);
   background-size: cover;
 
   transition:         all 50ms cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -21,7 +21,7 @@ div#player {
   position: absolute;
   width: 9px;
   height: 8px;
-  background: url("bullet3.png") center repeat;
+  background: url(../images/bullet3.png) center repeat;
 }
 .fly:hover {
   transition:all 5000ms cubic-bezier(0.215, 0.61, 0.355, 1);
