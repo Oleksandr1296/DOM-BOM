@@ -1,5 +1,5 @@
 var navigatorMessageMap = {
-  'macos': 'macos',
+  'mac': 'mac',
   'linux': 'linux',
   'win': 'windows'
 };
