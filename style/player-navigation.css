@@ -10,11 +10,12 @@ div#player {
   left: 0px;
 }
 .arena-of-battle {
-  height: 80%;
   width: 70%;
+  height: 70%;
   background: black;
   position: relative;
   border: white 2px dashed;
+
 }
 
 .bullet {
