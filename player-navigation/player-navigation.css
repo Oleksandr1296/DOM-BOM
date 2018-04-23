@@ -3,19 +3,27 @@ div#player {
   height: 20px;
   background: url("tank.png");
   background-size: cover;
-  transition: all 0.5s ease-out 0s;
+
+  transition:         all 50ms cubic-bezier(0.215, 0.61, 0.355, 1);
   position: absolute;
   top: 0px;
   left: 0px;
 }
 .arena-of-battle {
-  height: 95%;
+  height: 80%;
   width: 70%;
   background: black;
   position: relative;
-  border: black 2px solid;
+  border: white 2px dashed;
 }
-.container {
-  display: flex;
-  justify-content: space-around;
+
+.bullet {
+  position: absolute;
+  width: 9px;
+  height: 8px;
+  background: url("bullet3.png") center repeat;
+}
+.fly:hover {
+  transition:all 5000ms cubic-bezier(0.215, 0.61, 0.355, 1);
+
 }

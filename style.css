@@ -79,5 +79,24 @@ body{
 .player-navigation {
   width: 100%;
   background: url(https://stotop.com/i/bg2.png) center repeat;
-  height: 400px;
+  height: 500px;
+}
+.name-of-game {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.logotype-game {
+  height:50px ;
+  background: url(wot_logo.png) center no-repeat;
+  }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
