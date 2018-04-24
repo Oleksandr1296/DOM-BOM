@@ -1,16 +1,8 @@
-var navigatorMessageMap = {
-  'mac': 'mac',
-  'linux': 'linux',
-  'win': 'windows'
-};
 const $version=$('#version');
 $version.on('click',function () {
-  var platform = navigator.platform.toLowerCase();
-  for (let key in navigatorMessageMap){
-      if (platform.includes(key)) {
-        var $sowMasseg = $("div[data-version|='"+ key +"']");
-        $sowMasseg.show();
-        $version.hide();
-      }
-  }
+  var platform = navigator.platform;
+  let setPlatform = document.getElementById('platform');
+  setPlatform.innerText = platform;
+  $('.download-message').show();
+  $version.hide();
 });
